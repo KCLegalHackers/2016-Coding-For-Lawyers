@@ -6,3 +6,5 @@ Connect with us to start collaborating and innovating these problems here in KC!
 * Meetup: http://www.meetup.com/KC-Legal-Hackers/
 * Twitter: https://twitter.com/KCLegalHackers
 * Facebook: https://www.facebook.com/groups/KCLegalHackers/
+* 
+# Schedule
