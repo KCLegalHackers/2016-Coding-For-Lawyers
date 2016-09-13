@@ -1,0 +1,79 @@
+<!-- extend from base layout -->
+
+<!DOCTYPE html>
+
+
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<html lang="en" font ="timesnewroman">
+
+
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+
+
+	<p class="hidden-print">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Court Form</title>
+
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+
+<link rel='stylesheet' id='open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://samharden.github.io/stylesheet_for_forms.css' type='text/css' media='all' />
+
+<style type="text/css" media="screen">
+	html { margin: 20px 20px 20px 20px !important; }
+	* html body { margin: 20px 20px 20px 20px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin: 20px 20px 20px 20px !important; }
+		* html body { margin: 20px 20px 20px 20px !important; }
+	}
+</style>
+</head>
+
+<center><h1>Court Form Builder</h1></center>
+ <hr>
+ <p><b>Please complete all fields. Once you have answered all the following questions click
+ 		the Create Form button to generate a printable form with all your information.</b></p>
+  <hr>
+    <div>
+        <form action="" method="post" name="Marchman" autocorrect="off">
+          {{ form.hidden_tag() }}
+          <p>
+              What is the name of the respondent?<br>
+              {{ form.respondent(size=40) }}<br>
+          </p>
+          <p>
+              What is your name?<br>
+              {{ form.petitioner(size=40) }}<br>
+          </p>
+          
+			
+
+		<center><p><input type="submit" value="Create Form"></p></center>
+
+          
+
+          
+        </form>
+    </div>
+
+
+{% endblock %}

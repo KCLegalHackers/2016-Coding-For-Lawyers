@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<html lang="en" font ="timesnewroman">
+
+
+
+
+<head>
+	<meta charset="utf-8" />
+		<title>Court Form</title>
+	<style>
+		@media print
+		{
+		    select {
+ 			   -webkit-appearance: none;
+ 			   -moz-appearance: none;
+ 			   appearance: none;
+ 			   border: none; /* If you want to remove the border as well */
+ 			   background: none;
+ 			   }
+		}
+
+
+			article, aside, dialog, figure, footer, header,
+			hgroup, menu, nav, section {display:block;}
+	</style>
+
+<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="container">
+	<form name="form1" action="" novalidate>
+
+		<h2><p style="text-align:center;font-size:18px; arial font"><b>
+		IN THE CIRCUIT COURT OF THE UMPTEENTH JUDICIAL, CIRCUIT<br>
+		IN AND FOR YOUR COUNTY, STATE</b></p>
+		</h2>
+	<p><br>
+	<p style="text-align:left;font-size:18px; arial font"><b>In RE:  {{respondent}}</p><p style="text-align:right;font-size:18px; arial font">  CASE No:__________________________ </p>
+	<p style="text-align:right;font-size:18px; arial font"><b>DIVISION: 					X</b></p>
+
+	<h2><p style="text-align:center;font-size:18px; arial font"><b>COMPLAINT AND DEMAND FOR SOME AWESOME STUFF<br>
+	</b></p> </h2><br>
+
+<b>COMES NOW {{petitioner}} and files this, their COMPLAINT AND DEMAND FOR SOME AWESOME STUFF</b>
+
+<b>against {{respondent}}, and states as follows:</b><br>
+
+<p>1. Put in your text here...
+</p>
+
+
+<input type="button" class = "hidden-print" style=""
+  onClick="window.print()" 
+  value="Print This Page"/>
+
+
+</div> <!-- body size div tag closeout -->
+    
+
+{% endblock %}
+
+

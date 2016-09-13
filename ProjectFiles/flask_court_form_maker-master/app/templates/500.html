@@ -1,0 +1,10 @@
+<!-- extend from base layout -->
+{% extends "base.html" %}
+
+
+{% block content %}
+    <h1>Something has gone horribly wrong!</h1>
+    <p>'The administrator has been notified. Sorry for the inconvenience!'</p>
+    <p><a href="{{ url_for('index') }}">{{ ('Back Home') }}</a></p>
+    <img src="/static/200.gif">
+{% endblock %}
