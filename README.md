@@ -6,5 +6,8 @@ Connect with us to start collaborating and innovating these problems here in KC!
 * Meetup: http://www.meetup.com/KC-Legal-Hackers/
 * Twitter: https://twitter.com/KCLegalHackers
 * Facebook: https://www.facebook.com/groups/KCLegalHackers/
-* 
-# Schedule
+
+# Notes for Week Three
+* Complete lessons and videos for Sections 3, 4, & 5, available [here](https://www.udemy.com/automate/learn/v4/overview).
+* Bring questions, code, etc.
+* Terry to bring 2-3 legal tech tools.
