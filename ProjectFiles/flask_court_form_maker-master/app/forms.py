@@ -1,5 +1,5 @@
 from flask import flash, Markup
-from flask.ext.wtf import Form
+from flask_wtf import Form
 from wtforms import StringField, BooleanField, TextField, SelectField, RadioField, TextAreaField
 from wtforms.validators import DataRequired
 

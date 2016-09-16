@@ -6,11 +6,11 @@ from .forms import InputForm
 
 
 
-print "Top of Views"
+print("Top of Views")
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])
 def index():
-  print "Top of index"
+  print("Top of index")
   form = InputForm()
   if form.validate_on_submit():
       session['respondent'] = form.respondent._value()
@@ -27,7 +27,7 @@ def index():
 def results():
   
   respondent = session['respondent']
-  print "Petitioner = %s" % session['petitioner']
+  print("Petitioner = %s" % session['petitioner'])
   petitioner = session['petitioner']
   
   
