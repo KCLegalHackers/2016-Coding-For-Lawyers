@@ -1,0 +1,20 @@
+# Asking the client to agree to use this program.
+
+print ('Do you agree to use this program?')
+consent = input()
+while consent.upper()  != 'YES':
+    print ('I\'m sorry, you can not use this program if you do not say "YES" below. Do you agree to use this program?')
+    consent = input()
+print ('Great, let us begin.')
+    
+
+# Asking client to give me basic information to be inputted into document.
+
+print('Hello, we need to get your basic information into our system. Please tell me your LLC name.')
+nameLLC = input()
+print('OK, in which state do you want to incorproate?')
+state = input()
+print('OK, and how many owners do you have?')
+numMembers = input()
+print('Got it, your new LLC will be called ' + nameLLC + ', it will be incorproated in ' + state + ', and it will have ' + numMembers +' owenrs.')
+
