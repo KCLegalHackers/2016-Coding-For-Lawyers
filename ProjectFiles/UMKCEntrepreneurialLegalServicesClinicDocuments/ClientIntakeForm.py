@@ -1,6 +1,6 @@
-#Application for Services
+#A pplication for Services
 ----
-To be considered for acceptance as a client, you must complete this form and return it to the Entrepreneurial Legal Services Clinic. Acceptance as a client of the UMKC Entrepreneurial Legal Services Clinic is not guaranteed, and is ultimately based upon available of resources and time to provide services, absence of conflicts of interest, financial need of the client, and educational value for our students.
+print('To be considered for acceptance as a client, you must complete this form and return it to the Entrepreneurial Legal Services Clinic. Acceptance as a client of the UMKC Entrepreneurial Legal Services Clinic is not guaranteed, and is ultimately based upon available of resources and time to provide services, absence of conflicts of interest, financial need of the client, and educational value for our students.')
 
 
 print('What is your full name?')
