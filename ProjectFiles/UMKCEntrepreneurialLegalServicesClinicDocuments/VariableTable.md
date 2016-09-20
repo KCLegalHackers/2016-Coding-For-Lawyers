@@ -28,12 +28,13 @@
 
 ###Non-Profit Documents
 ---
-*Conflict of Interest Policy
+* Conflict of Interest Policy
 
-*Articles of incorporation
+* Articles of incorporation
 
-    * MO
-    * KS
+  * MO
+  * KS
+ 
 * Bylaws
    * MO
    * KS
