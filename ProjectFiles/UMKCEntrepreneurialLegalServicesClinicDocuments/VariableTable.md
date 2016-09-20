@@ -29,7 +29,9 @@
 ###Non-Profit Documents
 ---
 *Conflict of Interest Policy
+
 *Articles of incorporation
+
     * MO
     * KS
 * Bylaws
