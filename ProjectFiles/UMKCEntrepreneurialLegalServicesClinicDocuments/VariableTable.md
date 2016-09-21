@@ -36,8 +36,21 @@
   * KS
  
 * Bylaws
-   * MO
-   * KS
+  * [nonprofitName]
+  * [articleNum]
+  * [nonprofitPurpose]
+  * [nonprofitOfficeAddress]
+  * [nonprofitCity]
+  * [nonprofitState] # still need to create this variable in the forms
+  * [registeredAgentAddress]
+  * [registeredAgentName]
+  * [directorQualifications]
+  * [directorTermLength]
+  * [firstMonthOfFiscalYear]
+  * [lastMonthOfFiscalYear]
+  * [lastDayOfFiscalYear]
+  * Need a variable/radial for including advisory council, other portions
+  * [indemnificationArticleNum] --> need to figure out a way to set up internal references
 
 ###Single-Member LLC Documents
 ---
